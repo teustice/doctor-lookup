@@ -11,7 +11,8 @@ exports.getDoctors = function(medicalIssue) {
         doctors.push({
           title: doctor.profile.title,
           firstName: doctor.profile.first_name,
-          picture: doctor.profile.image_url
+          picture: doctor.profile.image_url,
+          specialties: doctor.specialties
         });
       });
     })

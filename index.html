@@ -9,26 +9,33 @@
     <title></title>
   </head>
   <body>
-    <div class="container">
-      <form id="doctor-form">
-        <input id="doctor-search" type="text">
-        <button type="submit" name="button">Search</button>
-      </form>
+    <div class="jumbotron">
+      <div class="container">
+        <h2>Search for a doctor by condition: </h2>
+        <form id="doctor-form">
+          <input id="doctor-search" type="text">
+          <button class="btn btn-default" type="submit" name="button">Search</button>
+        </form>
+        <img id="logo" src="logo.png">
+      </div>
+    </div>
 
+    <div class="container">
       <div class="labels">
-        <div class='col-md-4'>
-          <em><h3 id="query"></h3></em>
+          <div class='col-md-4'>
+            <em><h3 id="query"></h3></em>
+          </div>
+          <div class='col-md-4'>
+            <h2>Name:</h2>
+          </div>
+          <div class='col-md-4'>
+            <h2>Title:</h2>
+          </div>
         </div>
-        <div class='col-md-4'>
-          <h2>Name:</h2>
-        </div>
-        <div class='col-md-4'>
-          <h2>Title:</h2>
+        <div class="row" id="output">
+          <img id='people-img' src="people.png" alt="">
         </div>
       </div>
-      <div class="row" id="output"></div>
-      <div class="row" id="hiddenDetails"></div>
 
-    </div>
   </body>
 </html>
