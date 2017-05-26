@@ -8,8 +8,12 @@ body{
   background-color: rgba(255, 109, 122, 1);
   color: white;
   margin-bottom: 0;
-  input {
+  input, select{
+    width: 150px;
     color: black;
+  }
+  p {
+    display: inline;
   }
 }
 
