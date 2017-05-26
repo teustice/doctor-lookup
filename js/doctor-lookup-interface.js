@@ -1,8 +1,10 @@
 getDoctors = require('./../js/doctor-lookup.js').getDoctors;
 
 $(function(){
-  test = $('input').val();
-  $('button').click(function(){
-    getDoctors(test);
+  $('#doctor-form').submit(function(e){
+    e.preventDefault();
+    userInput = $('input').val();
+    getDoctors(userInput);
+    $('input').val("");
   });
 });
