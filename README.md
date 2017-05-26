@@ -3,6 +3,7 @@ This application utilizes the 'Better Doctor' api. It processes user input and r
 ### Setup/Installation Requirements
 * Clone/download the repo
 * save your api key in the root directory, stored in a .env file (create an account at https://developer.betterdoctor.com/)
+* the api key needs to be saved in a variable called exports.apiKey
 * run $ npm install
 * run $ bower install
 * run $ gulp build (gulp build --production to minify)
