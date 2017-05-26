@@ -14,6 +14,10 @@ exports.getDoctors = function(medicalIssue) {
           picture: doctor.profile.image_url
         });
       });
+
+      if (doctors.length === 0){
+        $('#output').append(`<h3>There are no doctors in the area that specialize in <em>${medicalIssue}</em></h3>`);
+      }
       doctors.forEach(function(doctor){
         $('#output').append(
           "<div class='col-md-4'>" +
