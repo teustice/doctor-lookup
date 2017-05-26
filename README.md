@@ -1,19 +1,26 @@
-# README title
-This is a brief description of what the software does.
+# Doctor Lookup
+This application utilizes the 'Better Doctor' api. It processes user input and returns the doctors of that specialty in a given area.
 ### Setup/Installation Requirements
-* list item 1
-* list item 2
-* list item 3
+* Clone/download the repo
+* save your api key in the root directory, stored in a .env file (create an account at https://developer.betterdoctor.com/)
+* run $ npm install
+* run $ bower install
+* run $ gulp build (gulp build --production to minify)
+* run $ gulp serve (starts development server)
 ### Known Bugs
-List known bugs or issues here
+There are currently no known bugs
 ### Technologies Used
-* Tech 1
-* Tech 2
-* Tech 3
-### By Authors
+* HTML
+* SCSS
+* Jquery
+* Bootstrap
+* Node
+* npm
+* Bower
+* Gulp
+### By Tanner Eustice
 ### Support and contact details
-_contact info here_
+_Please contact me through github for questions or to report a bug_
 ### License
 _MIT_
-Copyright (c) _year_ **Author or Organization**
-
+Copyright (c) _2017_ **Tanner Eustice**
